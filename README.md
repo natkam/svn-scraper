@@ -1,9 +1,11 @@
 # svn-scrapper
 
-Download the C# code from an non-existing SVN repo. 
+The goal:  
+Download a C# library from a non-existing SVN repo.
+An example file:  
 https://searchcode.com/codesearch/view/28766922/
 
 
 Built with:
 - Python 3.7
-- see the requirements.txt for additional packages. (It'll be either bs4 or requests-html, haven't decided yet.)
+- requests-html 0.10.0
